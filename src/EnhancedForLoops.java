@@ -1,7 +1,7 @@
 public class EnhancedForLoops {
     public static String printStandardFor(String[] arr){
         String str = "";
-        for(int i = 0; i <= arr.length; i++){
+        for(int i = 0; i < arr.length; i++){
             str += arr[i] + " ";
         }
         return str;
@@ -9,7 +9,7 @@ public class EnhancedForLoops {
 
     public static String printStandardFor(int[] arr){
         String str = "";
-        for(int i = 0; i <= arr.length; i++){
+        for(int i = 0; i < arr.length; i++){
             str += arr[i] + " ";
         }
         return str;
@@ -17,7 +17,7 @@ public class EnhancedForLoops {
 
     public static String printStandardFor(double[] arr) {
         String str = "";
-        for(int i = 0; i <= arr.length; i++){
+        for(int i = 0; i < arr.length; i++){
             str += arr[i] + " ";
         }
         return str;
@@ -25,7 +25,7 @@ public class EnhancedForLoops {
 
     public static String printEnhancedFor(String[] arr){
         String str = "";
-        for(int i = 0; i <= arr.length; i++){
+        for(int i = 0; i < arr.length; i++){
             str += arr[i] + " ";
         }
         return str;
@@ -33,7 +33,7 @@ public class EnhancedForLoops {
 
     public static String printEnhancedFor(int[] arr){
         String str = "";
-        for(int i = 0; i <= arr.length; i++){
+        for(int i = 0; i < arr.length; i++){
             str += arr[i] + " ";
         }
         return str;
@@ -41,7 +41,7 @@ public class EnhancedForLoops {
 
     public static String printEnhancedFor(double[] arr){
         String str = "";
-        for(int i = 0; i <= arr.length; i++){
+        for(int i = 0; i < arr.length; i++){
             str += arr[i] + " ";
         }
         return str;
