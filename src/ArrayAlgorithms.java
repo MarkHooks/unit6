@@ -76,7 +76,7 @@ public class ArrayAlgorithms {
         System.out.println(hasDupes(listc));
 
         int[] listd = {1, 0, 1, 1, 0, 1, 0, 1};
-        System.out.println(leftShift(list1, 6));
+        System.out.println(printArray(leftShift(list1, 6)));
 
         System.out.println(reverseArray(listd));
     }
